@@ -123,16 +123,12 @@ status:
     status: "True"
     type: Initialized
   - lastProbeTime: null
-    lastTransitionTime: "2024-01-31T12:10:18Z"
-    message: 'containers with unready status: [katafygio]'
-    reason: ContainersNotReady
-    status: "False"
+    lastTransitionTime: "2024-01-31T12:11:19Z"
+    status: "True"
     type: Ready
   - lastProbeTime: null
-    lastTransitionTime: "2024-01-31T12:10:18Z"
-    message: 'containers with unready status: [katafygio]'
-    reason: ContainersNotReady
-    status: "False"
+    lastTransitionTime: "2024-01-31T12:11:19Z"
+    status: "True"
     type: ContainersReady
   - lastProbeTime: null
     lastTransitionTime: "2024-01-31T12:10:18Z"
@@ -144,7 +140,7 @@ status:
     imageID: docker-pullable://svl-artifactory.juniper.net/atom-docker/cn2/sharmag07/katafygio@sha256:651b726f3af6856c6259f25f51f8dcd09c721e6d2087aaa7107c6a0d9efbc1c3
     lastState: {}
     name: katafygio
-    ready: false
+    ready: true
     restartCount: 0
     started: true
     state:
